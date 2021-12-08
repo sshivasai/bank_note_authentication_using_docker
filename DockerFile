@@ -1,0 +1,6 @@
+FROM continuumio/anaconda3:5.3.0
+COPY C:/Users/Shivah Sae/Desktop/Docker Implementation/
+EXPOSE 8888
+WORKDIR C:/Users/Shivah Sae/Desktop/Docker Implementation/
+RUN pip install -r requirements.txt
+CMD python app.py

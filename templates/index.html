@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        html{
+            background-image: url('https://www.neuraldesigner.com/images/banknote-authentication.jpeg');
+        }
+        h1 {text-align: center;
+            text-decoration: underline;
+        }
+        a{
+            color:rgb(17, 3, 3);
+            text-decoration-color: rgb(25, 10, 238);
+            background-color: rgba(255, 255, 255, 0.404);
+        }
+        form {text-align: center;
+            font-weight: bold;
+            background-color: rgba(255, 255, 255, 0.404);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+        }
+        div {text-align: center;}
+        footer{
+        background-color: rgba(255, 255, 255, 0.733);
+        clear: both;
+        position: relative;
+        height: 50px;
+        margin-top: 180px;
+        text-align: center;
+        }
+    
+        </style>
+</head>
+<body>
+    <br>
+    <h1><a href="index.html">BANK NOTE AUTHENTICATION</a></h1>
+    <form action ="/predict" method="POST">
+        <p>Variance</p>
+        <input required name ="v" placeholder="variance">
+        <p>Skewness</p>
+        <input required name ="s" placeholder="skewness">
+        <p>Curtosis</p>
+        <input required name ="c" placeholder="curtosis">
+        <p>Entropy</p>
+        <input required name ="e" placeholder="entropy">
+        <br>
+        <br>
+        <br>
+        <button>Submit</button style="font-weight: bold">
+    </form>
+</body>
+<footer>
+    <p>By Shiva Sai</p>
+    <p><a href="https://github.com/sshivasai">GitHub</a></p>
+  </footer>
+</html>
